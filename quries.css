@@ -1,0 +1,559 @@
+/* /1320/16=82 -------1rem=1em=16px/ */
+
+@media (max-width: 82em) {
+  .hero-1 {
+    max-width: 90rem;
+  }
+  .lines {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .hotel {
+    width: 230px;
+    height: 230px;
+  }
+  .add {
+    font-size: 1.5rem;
+  }
+}
+/* /1200px width/ */
+
+@media (max-width: 75em) {
+  .gall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  html {
+    font-size: 80%;
+  }
+  .food {
+    width: 300px;
+    height: 300px;
+  }
+  .hotel {
+    right: 184px;
+    top: 134px;
+  }
+
+  .testimonals {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+  }
+  .hero-1 {
+    gap: 3rem;
+  }
+}
+/* /1040px width/ */
+
+@media (max-width: 65em) {
+  .logos {
+    gap: 60px;
+  }
+  .hotel {
+    right: 80px;
+    top: 81px;
+  }
+  .content {
+    padding: 0rem 1.3rem 1.3rem 1.3rem;
+  }
+
+  .price-plan {
+    padding: 1.8rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 8px;
+    font-size: 15px;
+  }
+  html {
+    font-size: 70%;
+  }
+  .symbol {
+    width: 58px;
+    height: 58px;
+  }
+  .cta-form select {
+    padding: 6px;
+  }
+}
+
+/* /950px width/ */
+@media (max-width: 59em) {
+  .hero-1 {
+    grid-template-columns: 1fr;
+    padding: 85px 69px;
+  }
+
+  html {
+    font-size: 65%;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 13px;
+  }
+
+  .food {
+    width: 250px;
+    height: 250px;
+    display: none;
+  }
+
+  .testimonals {
+    grid-template-columns: 1fr 1fr;
+    gap: 4.4rem;
+  }
+  .cta-form select {
+    padding: 1px;
+  }
+  .symbol {
+    width: 53px;
+    height: 51px;
+  }
+  .hotel {
+    display: none;
+  }
+  .hero-info {
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+  .delivered-faces {
+    margin-top: -8.2rem;
+
+    padding-left: 270px;
+  }
+
+  .logos img {
+    height: 9rem;
+  }
+}
+/* /880px width/ */
+
+@media (max-width: 55em) {
+  .header {
+    padding: 14px;
+  }
+
+  html {
+    font-size: 55%;
+  }
+  .nav {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  meal-section {
+    padding: 8.6rem 60px;
+  }
+  .diets-item {
+    gap: 15.5px;
+  }
+  .logos img {
+    height: 9rem;
+  }
+  .no {
+    margin-bottom: -5px;
+  }
+  .main-nav:visited,
+  .main-nav:link {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 0rem 2.3rem 2.3rem 2.3rem;
+  }
+  .test {
+    grid-template-columns: 1fr;
+  }
+
+  blockquote {
+    font-size: 1.6rem;
+  }
+
+  .testimonals {
+    gap: 6.4rem;
+  }
+
+  .testimonal-img {
+    width: 25%;
+    height: 50%;
+  }
+  .gall {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+    height: 50rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .lines-1 {
+    margin-bottom: 1.6rem;
+  }
+
+  .cta-form .btn-1 {
+    height: 3rem;
+    width: 15rem;
+  }
+
+  .btn-mob {
+    display: block;
+    position: absolute;
+    right: -78px;
+  }
+
+  .nav {
+    background-color: #f6f5f9e8;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.5s;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+
+  .open-nav .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .open-nav .mobile-nav[name="close"] {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 155px;
+  }
+
+  .open-nav .mobile-nav[name="menu"] {
+    display: none;
+  }
+  .list-nav {
+    flex-direction: column;
+    gap: 5.3rem;
+  }
+
+  .main-nav:visited,
+  .main-nav:link {
+    font-size: 3rem;
+  }
+}
+
+/* /770px width/ */
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .wid {
+    width: 85%;
+  }
+
+  .content {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  .nav {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  /* .meal-section {
+    padding: 0 3.2rem;
+  } */
+
+  .all-dish {
+    margin-bottom: 20px;
+  }
+
+  .delivered-faces {
+    padding-left: 240px;
+  }
+
+  .cta {
+    height: 45%;
+  }
+  .no {
+    margin-bottom: -5px;
+  }
+  .main-nav:visited,
+  .main-nav:link {
+    font-size: 17px;
+  }
+  .faces img {
+    margin-right: -12px;
+  }
+}
+
+/* /700px width/ */
+@media (max-width: 48em) {
+  .content {
+    padding: 1rem 1rem 0rem 2rem;
+  }
+
+  .testimonals {
+    gap: 4.4rem;
+  }
+
+  .grid-col-4,
+  .grid-col-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wid {
+    width: 88%;
+  }
+  .cover::after {
+    top: 19px;
+    right: -25px;
+  }
+  .diets {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+
+/* /640px width/ */
+@media (max-width: 37em) {
+  .delivered-faces {
+    padding-left: 185px;
+  }
+  .logo {
+    width: 140px;
+    height: 62px;
+  }
+
+  .logos img {
+    height: 6rem;
+  }
+  .testimonals {
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+  }
+  .wid {
+    width: 65%;
+    grid-template-columns: 1fr;
+  }
+
+  /* .grid-col-5 {
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+
+  .section-grid {
+    padding: 84px 54px;
+  }
+
+  .grid-col-5 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .address,
+  .footer-logo {
+    grid-column: span 3;
+  }
+
+  .gall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cta-txt {
+    margin: 15px;
+  }
+  .testimonal-img {
+    width: 21%;
+    height: 23%;
+  }
+}
+
+/* /550px width/ */
+@media (max-width: 31em) {
+  .logos img {
+    height: 5rem;
+  }
+
+  .grid-col-3 {
+    grid-template-columns: 1fr;
+  }
+  .section-grid {
+    padding: 59px 15px;
+  }
+  .wid {
+    width: 85%;
+  }
+  .logos {
+    gap: 42px;
+  }
+  .content {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  .gall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .test {
+    padding: 9.6rem 25px;
+  }
+  .price {
+    padding: 9.6rem 50px;
+  }
+  .cta {
+    box-shadow: 0 2.3rem 4.8rem rgba(203, 201, 201, 0.75);
+  }
+
+  .meal-section {
+    padding: 8.6rem 50px;
+  }
+  /* .testimonal-img {
+    width: 20%;
+    height: 50%;
+  } */
+  .grid-col,
+  .grid-col-4 {
+    grid-template-columns: 1fr;
+  }
+  .gall {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-imgbox {
+    height: 25rem;
+  }
+
+  .cta-section {
+    padding: 8.6rem 55px;
+  }
+  .delivered-faces {
+    padding-left: 115px;
+  }
+  .testimonal-img {
+    width: 21%;
+    height: 23%;
+  }
+  .text-img:nth-child(2) {
+    grid-row: 1;
+  }
+  .text-img:nth-child(6) {
+    grid-row: 5;
+  }
+}
+
+/* /450px width/ */
+@media (max-width: 28em) {
+  .delivered-faces {
+    padding-left: 98px;
+  }
+  .logos {
+    gap: 45px;
+  }
+  .logos img {
+    height: 5rem;
+  }
+  .section-grid {
+    padding: 64px 15px;
+  }
+  .no {
+    margin-bottom: -1px;
+  }
+
+  .grid-col-3 {
+    grid-template-columns: 1fr;
+  }
+  .wid {
+    width: 86%;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    text-align: center;
+  }
+
+  .col {
+    grid-row: 2;
+    grid-column: span 4;
+  }
+
+  .address,
+  .footer-logo {
+    grid-column: span 5;
+  }
+  footer {
+    padding: 8.6rem 9px;
+  }
+}
+
+@media (max-width: 26em) {
+  .delivered-faces {
+    padding-left: 50px;
+  }
+  .logos {
+    gap: 25px;
+  }
+  .price {
+    padding: 8.6rem 45px;
+  }
+  .cta-form .btn-1 {
+    margin-left: 5px;
+  }
+  .wid {
+    width: 98%;
+  }
+  .cta-section {
+    padding: 9.6rem 40px;
+  }
+  /* .cta-form .btn-1 {
+    margin-left: 32px;
+  } */
+  .testimonals {
+    grid-template-columns: 1fr;
+  }
+  .testimonal-img {
+    width: 25%;
+    height: 46%;
+  }
+  .address,
+  .footer-logo {
+    grid-column: span 4;
+  }
+  .col {
+    grid-row: 2;
+    grid-column: span 3;
+  }
+  .diets-item {
+    gap: 10.5px;
+  }
+}
+
+@media (max-width: 20em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 11px;
+  }
+  .delivered-faces {
+    padding-left: 59px;
+  }
+  .logos {
+    gap: 7px;
+  }
+  .logos img {
+    height: 4rem;
+  }
+  /* .meal-section {
+    padding: 3.6rem 45px;
+  } */
+}
